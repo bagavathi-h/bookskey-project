@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bookskey</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <h1>bookskey</h1>
+    </div>
+    <div class="pic">
+    <div class="container">
+    <div class="book-container">
+        <h2>ponniyen selvan</h2>
+        <h5>kalki</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tempore excepturi odio magnam laborum dolores voluptas est impedit qui ducimus modi, aperiam blanditiis esse obcaecati odit eius cupiditate ad? Fugiat!</p>
+        <button onclick="deletebook(event)">delete</button>
+    </div>
+    </div>
+    
+    <div class="popup-overlay"></div>
+    <div class="popupbox"> 
+        <h2>add book</h2>
+        <form>
+            <input type="text" placeholder="book title" id="book-title-input">
+            <input type="text" placeholder="book author" id="book-author-input">
+            <textarea placeholder="short description" id="book-description-input"></textarea>
+            <button id="add-book">ADD</button>
+            <button id="cancel-book">CANCEL</button>
+        </form>
+    </div>
+    <button class="add-button" id="add-popup-button">+</button>
+    <script src="script.js"></script>
+    </div>
+</body>
+</html>

@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: poppins,sans-serif;
+}
+.navbar{
+    background-color: #fd6569;
+    padding: 10px;
+}
+.container{
+    padding: 10px; 
+    display: inline; 
+}
+.book-container{
+    padding: 15px;
+    width: 25%;
+    background-color:black;
+    border-radius:  10px;
+    color: white;
+    margin: 30px;
+    display: inline-block;
+    vertical-align: top;
+}    
+
+
+.book-container button{
+    background-color: #fd6569;
+    color: black;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    margin-top: 10px;
+}
+.add-button{
+    background-color: #fd6569;
+    color: black;
+    border-radius: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 40px;
+    border: none;
+    position: fixed;
+    bottom: 30px;
+    right: 10%;
+}
+.popup-overlay{
+    background-color: black;
+    opacity: 0.8;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: none;
+}
+.popupbox{
+    background-color: #fd6569;
+    width: 30%;
+    padding: 40px;
+    border-radius: 10px;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    z-index: 2;
+    display: none;
+}
+
+.popupbox input{
+    background: transparent;
+    border: none;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    border-bottom: solid black 2px;
+}
+
+.popupbox textarea{
+    background: transparent;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    border: solid black 2px;
+}
+
+.popupbox input::placeholder{
+    color: black ;
+}
+
+.popupbox textarea::placeholder{
+    color: black ;
+}
+
+
+.popupbox button{
+    background-color: black;
+    color: white;
+    padding-right: 20px;
+    padding-left: 20px;
+    border: none;
+    border-top: 10px;
+    border-bottom: 10px;
+    margin: 5px;
+    height: 30px;
+    
+}
+
+.pic{
+    
+            background-image: url('https://wallpapers.com/images/featured/book-5q6xbfxwtbme5kaj.webp');
+            background-size: cover; /* Makes the image cover the entire container */
+            background-position: center; /* Centers the image */
+            background-repeat: no-repeat; /* Prevents the image from repeating */
+            height: 100vh; /* Sets the height to cover the full viewport */
+            width: 100%; /* Ensures it takes the full width */
+        }
+        
